@@ -14,7 +14,7 @@ nav {
   -ms-grid-columns: 15% auto 15%;
       grid-template-columns: 15% auto 15%;
   text-align: center;
-  background: #efefef;
+  background: #fefefe;
   padding: 35px 0;
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -61,6 +61,7 @@ nav #social a img {
   font-size: 36px !important;
   font-family: 'Passion One', cursive;
   letter-spacing: 3px;
+  padding-left: 3px;
 }
 
 .logo:hover {
@@ -72,5 +73,89 @@ nav #social a img {
   font-family: 'Passion One', cursive;
   vertical-align: 3px;
   font-size: 30px;
+}
+
+#banner .slick-prev {
+  left: 50px;
+  z-index: 2;
+}
+
+#banner .slick-next {
+  right: 50px;
+  z-index: 2;
+}
+
+#banner .slick-dots {
+  bottom: 50px;
+  z-index: 2;
+}
+
+#banner .banner1 {
+  background-image: url(./img/banner1.jpg);
+  height: 100vh;
+  text-align: center;
+  color: #fefefe;
+}
+
+#banner .banner1:focus {
+  outline: none;
+}
+
+#banner .banner1 h1 {
+  padding: 350px 0 50px 20px;
+  font-size: 72px;
+  letter-spacing: 20px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+}
+
+#banner .banner1 h2 {
+  font-size: 24px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+}
+
+#banner .banner2 {
+  background-image: url(./img/banner2.jpg);
+  height: 100vh;
+  text-align: center;
+  color: #fefefe;
+}
+
+#banner .banner2:focus {
+  outline: none;
+}
+
+#banner .banner2 h1 {
+  padding: 350px 0 50px 20px;
+  font-size: 72px;
+  letter-spacing: 20px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+}
+
+#banner .banner2 h2 {
+  font-size: 24px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+}
+
+#banner .banner3 {
+  background-image: url(./img/banner3.jpg);
+  height: 100vh;
+  text-align: center;
+  color: #fefefe;
+}
+
+#banner .banner3:focus {
+  outline: none;
+}
+
+#banner .banner3 h1 {
+  padding: 350px 0 50px 20px;
+  font-size: 72px;
+  letter-spacing: 20px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+}
+
+#banner .banner3 h2 {
+  font-size: 24px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
 }
 /*# sourceMappingURL=style.css.map */
