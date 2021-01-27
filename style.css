@@ -174,5 +174,30 @@ nav #social a img {
 
 #news #news-content img {
   width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#news #news-content h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+#news #news-content p {
+  line-height: 1.5;
+  font-size: 14px;
+  padding: 0 20px 30px;
+}
+
+.btn {
+  background: #aaa;
+  color: #f8f8f8;
+  padding: 15px 30px;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  font-size: 14px;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
