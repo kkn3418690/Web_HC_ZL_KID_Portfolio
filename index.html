@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>KID 個人網站</title>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <!-- 導覽列 -->
     <nav>
@@ -22,7 +24,8 @@
             <a href="">聯絡</a>
         </div>
         <div id="social">
-            <a href="https://www.youtube.com/channel/UCPUWAiW3afclhglw4MY_ucg"><img src="./img/icon_yt.png" alt="Youtube"></a>
+            <a href="https://www.youtube.com/channel/UCPUWAiW3afclhglw4MY_ucg"><img src="./img/icon_yt.png"
+                    alt="Youtube"></a>
             <a href="https://www.instagram.com/kid77421/"><img src="./img/icon_ig.png" alt="Instagram"></a>
             <a href="https://zh-tw.facebook.com/childworld07"><img src="./img/icon_fb.png" alt="Facebook"></a>
             <a href="https://github.com/KID421"><img src="./img/icon_gh.png" alt="Git Hub"></a>
@@ -70,8 +73,59 @@
         </div>
     </section>
 
+    <!--最新作品-->
+    <div id="works">
+        <div class="work-card">
+            <img src="" alt="">
+            <h2>標題二</h2>
+        </div>
+        <div class="work-card">
+            <img src="" alt="">
+            <h2>標題二</h2>
+        </div>
+        <div class="work-card">
+            <img src="" alt="">
+            <h2>標題二</h2>
+        </div>
+        <div class="work-card">
+            <img src="" alt="">
+            <h2>標題二</h2>
+        </div>
+        <div class="work-card">
+            <img src="" alt="">
+            <h2>標題二</h2>
+        </div>
+        <div class="work-card">
+            <img src="" alt="">
+            <h2>標題二</h2>
+        </div>
+    </div>
+
+    <!--聯絡我-->
+    <h1 class="title-big">聯絡我</h1>
+    <!--標單元素 action="" 傳遞給後端頁面，通常是 XXX.php -->
+    <!--方法：傳送資料方式 -->
+    <!--GET 曝光標單資料-->
+    <!--POST 部會曝光標單資料-->
+    <form action="" method="GET">
+        <input type="text" name="user-name" placeholder="請輸入你的名子" required>
+        <input type="email" name="user-email" placeholder="請輸入你的信箱" required>
+        <textarea placeholder="請輸入您想要跟我說的話" required></textarea>
+        <input type="submit" value="送出">
+    </form>
+
+    <!--頁尾-->
+    <footer>
+        <a href="" class="logo"><span>{</span>KID<span>}</span></a>
+        <a href="">作品</a>
+        <a href="">文章</a>
+        <a href="">商品</a>
+        <a href="">聯絡</a>
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./main.js"></script>
 </body>
+
 </html>

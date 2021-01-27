@@ -190,6 +190,43 @@ nav #social a img {
   padding: 0 20px 30px;
 }
 
+form {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+form input {
+  width: 49%;
+  padding: 10px 5px;
+}
+
+form textarea {
+  width: 100%;
+  height: 300px;
+  margin: 30px 0;
+  padding: 10px;
+}
+
+form textarea::-webkit-input-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+form textarea:-ms-input-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+form textarea::-ms-input-placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+form textarea::placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
 .btn {
   background: #aaa;
   color: #f8f8f8;
@@ -198,6 +235,23 @@ nav #social a img {
   margin: 0 auto;
   width: 90%;
   font-size: 14px;
-  border: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  border: 1px soil #252525;
+  background: white;
+  color: #252525;
+}
+
+.btn .title-big {
+  text-align: center;
+  padding: 10px 0 30px;
+  font-size: 30px;
+  font-weight: 900;
 }
 /*# sourceMappingURL=style.css.map */
