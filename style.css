@@ -158,4 +158,21 @@ nav #social a img {
   font-size: 24px;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
 }
+
+#news {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#news #news-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+#news #news-content img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
